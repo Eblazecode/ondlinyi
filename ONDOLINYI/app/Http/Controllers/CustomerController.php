@@ -33,6 +33,9 @@ class CustomerController extends Controller
         //
 
     }
+    public function admin(){
+        return view('admin.index1');
+    }
 
     /**
      * Show the form for creating a new resource.

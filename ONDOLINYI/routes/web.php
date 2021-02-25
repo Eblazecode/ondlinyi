@@ -17,7 +17,8 @@ Route::get('/', function () {
     return view('landing');
 });
 Route::get('/ethanol',[\App\Http\Controllers\CustomerController::class,'ethanol']);
-Route::get('/ethanol',[\App\Http\Controllers\CustomerController::class,'trucks']);
-Route::get('/ethanol',[\App\Http\Controllers\CustomerController::class,'textile']);
-Route::get('/ethanol',[\App\Http\Controllers\CustomerController::class,'hdf']);
-Route::get('/ethanol',[\App\Http\Controllers\CustomerController::class,'mdf']);
+Route::get('/trucks',[\App\Http\Controllers\CustomerController::class,'trucks']);
+Route::get('/textile',[\App\Http\Controllers\CustomerController::class,'textile']);
+Route::get('/hdf',[\App\Http\Controllers\CustomerController::class,'hdf']);
+Route::get('/mdf',[\App\Http\Controllers\CustomerController::class,'mdf']);
+Route::get('/admin',[\App\Http\Controllers\CustomerController::class,'admin']);

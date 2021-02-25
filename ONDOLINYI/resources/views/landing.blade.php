@@ -174,7 +174,7 @@
                     </div>
                     <!-- Portfolio Item -->
                     <div class="col-md-4 col-sm-6" data-filter="Print Digital">
-                        <a href="textile">
+                        <a href="<?= url('textile')?>">
                             <div class="portfolio-item">
                                 <div class="item-caption">
                                     <h4>Quality threads</h4>
@@ -187,7 +187,7 @@
                     </div>
                     <!-- Portfolio Item -->
                     <div class="col-md-4 col-sm-6" data-filter="Print">
-                        <a href="ethanol">
+                        <a href="<?= url('ethanol')?>">
                             <div class="portfolio-item">
                                 <div class="item-caption">
                                     <h4>Ethanol</h4>
@@ -200,7 +200,7 @@
                     </div>
                     <!-- Portfolio Item -->
                     <div class="col-md-4 col-sm-6" data-filter="Print">
-                        <a href="textile">
+                        <a href="<?= url('ethanol')?>">
                             <div class="portfolio-item">
                                 <div class="item-caption">
                                     <h4>Fabrics</h4>
@@ -226,7 +226,7 @@
                     </div>
                     <!-- Portfolio Item -->
                     <div class="col-md-4 col-sm-6" data-filter="Branding Digital">
-                        <a href="textile">
+                        <a href="<?= url('textile')?>">
                             <div class="portfolio-item">
                                 <div class="item-caption">
                                     <h4>Thread</h4>
