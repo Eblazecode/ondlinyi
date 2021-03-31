@@ -22,3 +22,7 @@ Route::get('/textile',[\App\Http\Controllers\CustomerController::class,'textile'
 Route::get('/hdf',[\App\Http\Controllers\CustomerController::class,'hdf']);
 Route::get('/mdf',[\App\Http\Controllers\CustomerController::class,'mdf']);
 Route::get('/admin',[\App\Http\Controllers\CustomerController::class,'admin']);
+
+Route::get('customers',[\App\Http\Controllers\CustomerController::class]);
+#Route::get('/signup',\App\Http\Controllers\CustomerController::class,'signup_form');
+#Route::get('/login',\App\Http\Controllers\CustomerController::class,'login_form');

@@ -187,7 +187,7 @@ WHERE email='$email' && password='$password'");
                                 </div>
                             </form>
                             <div class="text-center mt-4 mb-3">
-                                <div class="text-job text-muted">Don't have an account?  <a href="AUTH/billerreg.php">Create One</a></div>
+                                <div class="text-job text-muted">Don't have an account?  <a href="AUTH/signup.blade.php">Create One</a></div>
                             </div>
                         </div>
                     </div>
@@ -202,13 +202,13 @@ WHERE email='$email' && password='$password'");
     </section>
 </div>
 <!-- General JS Scripts -->
-<script src={{asset('"assets/js/app.min.js"')}}></script>
+<script src={{asset("assets/js/app.min.js")}}></script>
 <!-- JS Libraies -->
 <!-- Page Specific JS File -->
 <!-- Template JS File -->
-<script src="{{asset('assets/js/scripts.js')}}"></script>
+<script src="{{asset("assets/js/scripts.js")}}"></script>
 <!-- Custom JS File -->
-<script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset("assets/js/custom.js")}}"></script>
 </body>
 
 
